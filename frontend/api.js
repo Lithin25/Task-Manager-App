@@ -4,7 +4,7 @@
 // If you test on Android emulator: 'http://10.0.2.2:3000'
 // If you use ngrok for a real device: use the https://xxxx.ngrok.io URL
 
-const BASE = 'http://192.168.1.62:3000'; // <-- keep this for now; change later if needed
+const BASE = ''; // <-- keep this for now; change later if needed
 
 export async function fetchTasks(params = {}) {
   const qs = new URLSearchParams(params).toString();
